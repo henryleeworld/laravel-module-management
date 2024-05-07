@@ -7,7 +7,5 @@
     "providers": [
         "Modules\\ExpenseManagement\\Providers\\ExpenseManagementServiceProvider"
     ],
-    "aliases": {},
-    "files": [],
-    "requires": []
+    "files": []
 }

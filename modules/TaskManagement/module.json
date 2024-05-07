@@ -7,7 +7,5 @@
     "providers": [
         "Modules\\TaskManagement\\Providers\\TaskManagementServiceProvider"
     ],
-    "aliases": {},
-    "files": [],
-    "requires": []
+    "files": []
 }

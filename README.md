@@ -1,4 +1,4 @@
-# Laravel 8 模組管理
+# Laravel 10 模組管理
 
 引入 nwidart 的 laravel-modules 套件來擴增模組管理，模組目錄裡的各個模組其實就是對應到一個限定內容，一個模組就像一個 Laravel 套件，它有一些視圖、控制器或模型。
 
@@ -24,11 +24,19 @@ $ php artisan migrate --seed
 ```sh
 $ php artisan storage:link
 ```
+- 執行安裝 Vite 和 Laravel 擴充套件引用的依賴項目。
+```sh
+$ npm install
+```
+- 執行正式環境版本化資源管道並編譯。
+```sh
+$ npm run build
+```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以登入經由 `/login` 來進行登入，預設的電子郵件和密碼分別為 __admin@admin.com__ 和 __password__ 。
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/dVL4ANn.png)
+![](https://i.imgur.com/ZXOuALt.png)
 > 將業務邏輯拆分為屬於一起的不同模組
